@@ -1,0 +1,5 @@
+slack.token = "<YOUR-SLACK-TOKEN>"
+slack.room = "#general"
+#slack.message = "Your message"
+#slack.interval = 600000
+#slack.mention = false 
