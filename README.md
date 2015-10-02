@@ -22,3 +22,7 @@ The bot allows to easily configure some parameters:
 * **Time interval** between each reminder, through the `slack.interval`parameter
 * **Message** posted by the bot, through the `slack.message`parameter
 * **Mentioning** all channel/group users or not, through the `slack.mention`parameter
+
+# Other usages
+
+This bot can easily be generalized for any other regular task replacing the body of the `postMessage` method
