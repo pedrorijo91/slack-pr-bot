@@ -1,4 +1,7 @@
-# slack-pr-bot [![Codacy Badge](https://api.codacy.com/project/badge/ce7e7c4216fd425ebdbff658dca70b34)](https://www.codacy.com)
+# slack-pr-bot
+
+[![Codacy Badge](https://api.codacy.com/project/badge/ce7e7c4216fd425ebdbff658dca70b34)](https://www.codacy.com)
+[![Build Status](https://travis-ci.org/pedrorijo91/slack-pr-bot.svg?branch=master)](https://travis-ci.org/pedrorijo91/slack-pr-bot)
 
 [Slack bot](https://api.slack.com/bot-users) that reminds team members to review existing pull requests in regular time intervals.
 
