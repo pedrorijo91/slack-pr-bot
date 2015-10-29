@@ -1,6 +1,7 @@
 package com.pedrorijo91.slackbot
 
 import org.slf4j.LoggerFactory
+import scala.annotation.tailrec
 import scala.concurrent.ExecutionContext.Implicits.global
 import slack.api.BlockingSlackApiClient
 
@@ -23,6 +24,7 @@ object SlackBot {
 
   }
 
+  @tailrec
   def postMessage(client: BlockingSlackApiClient, roomId: String, message: String, interval: Long, mentionAll: Boolean): Unit = {
     val fullMessage = if(mentionAll) s"<!channel> $message" else message
     val response = client.postChatMessage(roomId, fullMessage)
