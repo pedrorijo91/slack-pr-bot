@@ -24,7 +24,7 @@ object SlackBot {
   }
 
   def postMessage(client: BlockingSlackApiClient, roomId: String, message: String, interval: Long, mentionAll: Boolean): Unit = {
-    val fullMessage = if(mentionAll) "<!channel> " + message else message
+    val fullMessage = if(mentionAll) s"<!channel> $message" else message
     val response = client.postChatMessage(roomId, fullMessage)
     logger.info(s"slack response: $response")
 
