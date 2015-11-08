@@ -1,0 +1,6 @@
+{
+  "name": "Slack Pull Request Bot",
+  "description": "A bot that reminds channel members to review pull requests through slack.",
+  "repository": "https://github.com/pedrorijo91/slack-pr-bot",
+  "keywords": ["scala", "pull request", "code review", "slack"]
+}

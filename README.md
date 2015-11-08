@@ -8,7 +8,9 @@
 Built with [gilbertw1/slack-scala-client](https://github.com/gilbertw1/slack-scala-client) library.
 
 ## How to run
-Simply use the command `sbt run`.
+Simply click on the "Deploy to Heroku" button under this section, or use the command `sbt run`.
+
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ### Requirements
 In the `src/main/resources/application.conf` file you need to insert the `Slack API Token` in the `slack.token` field, and the `room id` in the `slack.room` field.
