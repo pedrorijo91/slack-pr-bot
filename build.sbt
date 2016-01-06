@@ -12,3 +12,5 @@ libraryDependencies += "com.github.gilbertw1" %% "slack-scala-client" % "0.1.3"
 libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.1.2"
 
 libraryDependencies += "com.typesafe" % "config" % "1.3.0"
+
+libraryDependencies += "com.typesafe.akka" % "akka-actor_2.11" % "2.4.1"
