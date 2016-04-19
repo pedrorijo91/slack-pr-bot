@@ -14,3 +14,5 @@ libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.1.2"
 libraryDependencies += "com.typesafe" % "config" % "1.3.0"
 
 libraryDependencies += "com.typesafe.akka" % "akka-actor_2.11" % "2.4.1"
+
+enablePlugins(JavaAppPackaging)
